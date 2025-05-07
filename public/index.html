@@ -39,6 +39,7 @@
                     <h3>SPANDANA JANGA</h3>
                 </div>
                 <div class="about-content">
+                    
                     <h3>ABOUT ME</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. molestiae doloremque. Nostrum, quisquam possimus. Dolorem laudantium ipsam exercitationem illo iusto natus aut ratione sapiente.</p>
                     <h3>REACH OUT</h3>
@@ -49,13 +50,13 @@
         
             
             <div id="Education" class="EDUCATION">
-                <article>
+                
                     <h3>EDUCATION</h3>
                     <img src="my_image.png" alt="education img1">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, esse quisquam. Quo ratione  dicta nemo animi accusantium maxime ex laboriosam nostrum?</p>
                     <img src="my_image.png" alt="education img2">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quam id cum nobis iusto assumenda. voluptatem! Saepe nemo soluta quam officia fuga optio?</p>
-                </article>
+                
             </div>
         </section>
         
@@ -89,7 +90,7 @@
     </section>
     
     <section id="Projects" class="PROJECTS">
-        <article>
+        
             <h3> PROJECTS </h3>
         
             <div class="project">
@@ -106,7 +107,7 @@
                 <img src="my_image.png" alt="project img3">
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem facilis autem enim qui, numquam laborum! Quo unde quibusdam cumque quas magni.</p>
             </div>
-        </article>
+        
     </section>
     
 
@@ -175,6 +176,12 @@ nav {
     background-color: #000;
     color: white;
     padding: 1vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .menu-toggle-label {
@@ -309,6 +316,7 @@ nav {
 #Projects {
     margin-top: 2vh;
     display: grid;
+    display: inline block;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     padding: 2vh;
@@ -325,16 +333,17 @@ nav {
 
 .project {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: (auto);
     justify-content: center;
 }
 
 .project img {
     width: 15vw;
     height: 15vw;
-    align-items: center;
-    margin-left: 7vw;
+    margin: 0 auto 1vh auto;
+    display: block;
 }
+
 
 
 #Experience {
