@@ -1,0 +1,49 @@
+{
+  "pharmacy": [
+    {
+      "id": "1",
+      "medicine": "Paracetamol",
+      "category": "Analgesic",
+      "price": 2.5,
+      "stock_quantity": 150,
+      "manufacturing_date": "2023-06-15",
+      "expiration_date": "2025-06-14"
+    },
+    {
+      "id": "2",
+      "medicine": "Amoxicillin",
+      "category": "Antibiotic",
+      "price": 5.0,
+      "stock_quantity": 80,
+      "manufacturing_date": "2024-01-10",
+      "expiration_date": "2026-01-09"
+    },
+    {
+      "id": "3",
+      "medicine": "Cetirizine",
+      "category": "Antihistamine",
+      "price": 1.2,
+      "stock_quantity": 200,
+      "manufacturing_date": "2023-11-05",
+      "expiration_date": "2025-11-04"
+    },
+    {
+      "id": "4",
+      "medicine": "Ibuprofen",
+      "category": "Anti-inflammatory",
+      "price": 3.0,
+      "stock_quantity": 120,
+      "manufacturing_date": "2023-08-20",
+      "expiration_date": "2025-08-19"
+    },
+    {
+      "id": "5",
+      "medicine": "Metformin",
+      "category": "Antidiabetic",
+      "price": 4.5,
+      "stock_quantity": 95,
+      "manufacturing_date": "2024-02-01",
+      "expiration_date": "2026-01-31"
+    }
+  ]
+}
