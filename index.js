@@ -82,12 +82,12 @@ const server = http.createServer((req, res) => {
         };
 
 
-         fs.readFile( path.join(__dirname,'public', 'db.json'),'utf-8', (err,data)=>{
-            if (err) throw err;
-            // console.log(typeof(data));
-            res.writeHead(200, {'Content-Type': 'application/json'});
-            res.end(data);
-         })
+        //  fs.readFile( path.join(__dirname,'public', 'db.json'),'utf-8', (err,data)=>{
+        //     if (err) throw err;
+        //     // console.log(typeof(data));
+        //     res.writeHead(200, {'Content-Type': 'application/json'});
+        //     res.end(data);
+        //  })
         
     }
     else if (req.url === '/my_image.png') {
